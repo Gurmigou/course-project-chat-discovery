@@ -1,0 +1,13 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: video-chat-discovery
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: https://e-petrol-eureka.herokuapp.com/eureka
