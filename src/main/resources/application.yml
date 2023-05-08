@@ -10,4 +10,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: https://e-petrol-eureka.herokuapp.com/eureka
+      defaultZone: http://localhost:8010/eureka
